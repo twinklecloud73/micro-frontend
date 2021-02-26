@@ -5,7 +5,7 @@ export const menuList = [
         title: '首页'
     },
     {
-        key: 'vueMicroApp',
+        key: 'VueMicroApp',
         path: '/vue',
         title: 'Vue应用'
     }

@@ -14,7 +14,13 @@ module.exports = {
 
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST
-    port: 8080, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
+    port: 8081, // can be overwritten by process.env.PORT, if port is in use, a free one will be determined
+    // 关闭主机检查，使子应用可以被fetch
+    disableHostCheck: true,
+    // 配置跨域请求头
+    headers: {
+      "Access-Control-Allow-Origin": "*"
+    },
     autoOpenBrowser: false,
     errorOverlay: true,
     notifyOnErrors: true,

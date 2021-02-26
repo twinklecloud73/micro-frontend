@@ -10,6 +10,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "babel-plugin-transform-remove-strict-mode": "0.0.2",
     "element-ui": "^2.15.1",
     "qiankun": "^2.4.0",
     "vue": "^2.5.2",
